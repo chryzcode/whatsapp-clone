@@ -1,245 +1,252 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    cursor:pointer;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  cursor: pointer;
 }
 
-body{
-    margin-top: 25px;
+body {
+  margin-top: 25px;
 }
 
-.top-bar{
-    height: 20px;
+.top-bar {
+  height: 20px;
 }
 
-.mobile-time{
-    font-size: 11px;
-    padding-left: 18px;
-    color: white;
+.mobile-time {
+  font-size: 11px;
+  padding-left: 18px;
+  color: white;
 }
-.mobile-wrapper{
-    height: 600px;
-    width: 300px;
-    background-color: #292C35;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    border-radius: 44px;
-    border: 15px solid black;
-}
-
-.navigation{
-    width: 70px;
-    height: 2px;
-    background-color: rgb(104, 94, 94);
-    margin-top: -5x;
-    margin-left: auto;
-    margin-right: auto;
+.mobile-wrapper {
+  height: 600px;
+  width: 300px;
+  background-color: #292c35;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 44px;
+  border: 15px solid black;
 }
 
-.nav-item{
-    padding-right: 12px;
-    padding-left: 10px;
-    color: rgb(182, 174, 174);
-    font-size: 14px;
+.navigation {
+  width: 70px;
+  height: 2px;
+  background-color: rgb(104, 94, 94);
+  margin-top: -5x;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img{
-    width: 39px;
-    border-radius: 50%;
-    float: left;
-    margin-left: 5px;
-    margin-top: 5px;
+.nav-item {
+  padding-right: 12px;
+  padding-left: 10px;
+  color: rgb(182, 174, 174);
+  font-size: 14px;
 }
 
-.main{
-    height: 540px;
-    border-radius: 7px;
+img {
+  width: 39px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
-.whatsapp-top-view{
-    background-color: #3d3f46;
-    height: 60px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+.main {
+  height: 540px;
+  border-radius: 7px;
 }
 
-.company-name{
-    margin-top: 4px;
-    padding-left: 6px;
-    display: inline-block;
-    color: rgb(182, 174, 174);
+.whatsapp-top-view {
+  background-color: #3d3f46;
+  height: 60px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
-.nav-bar{
-    margin-top: 14px;
+.company-name {
+  margin-top: 4px;
+  padding-left: 6px;
+  display: inline-block;
+  color: rgb(182, 174, 174);
 }
 
-.a-person{
-    margin-top: 5px;
-    border-bottom: 1px solid grey;
-    list-style: none;
+.nav-bar {
+  margin-top: 14px;
 }
 
-.name{
-    color: white;
-    padding-left: 10px;
-    margin-top: 3px;
-    display: inline-block;
+.a-person {
+  margin-top: 5px;
+  border-bottom: 1px solid grey;
+  list-style: none;
 }
 
-.msg-time{
-    color: white;
-    font-size: 10px;
-    float: right;
-    padding-right: 10px;
-    margin-top: 5px;
+.name {
+  color: white;
+  padding-left: 10px;
+  margin-top: 3px;
+  display: inline-block;
 }
 
-.read-msg{
-    color: grey;
-
-    margin-bottom: 5px;
-    font-size: 12px;
-    margin-top: 6px;
+.msg-time {
+  color: white;
+  font-size: 10px;
+  float: right;
+  padding-right: 10px;
+  margin-top: 5px;
 }
 
-.unread-msg{
-    border-bottom: 1px solid grey;
-    margin-top: 5px;
-    list-style: none;
+.read-msg {
+  color: grey;
+
+  margin-bottom: 5px;
+  font-size: 12px;
+  margin-top: 6px;
 }
 
-.msg{
-    color: grey;
-    margin-bottom: 5px;
-    padding-left: 55px;
-    font-size: 12px;
-    margin-top: 6px;
+.unread-msg {
+  border-bottom: 1px solid grey;
+  margin-top: 5px;
+  list-style: none;
 }
 
-.nav-unread-num-msg{
-    display: inline-block;
-    background-color: #0bb39f;
-    border-radius: 100%;
-    padding: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 0;
-    font-size: 12px;
-    color: black;
+.msg {
+  color: grey;
+  margin-bottom: 5px;
+  padding-left: 55px;
+  font-size: 12px;
+  margin-top: 6px;
 }
 
-.unread-num-msg{
-    display: inline-block;
-    background-color: #0bb39f;
-    border-radius: 55%;
-    height: 19px;    
-    margin-top: -5px;
-    float: right;
-    margin-right: 12px;
-    padding-top: 3px;
-    padding-left: 7px;
-    padding-right: 5px;
-    color: black;
+.nav-unread-num-msg {
+  display: inline-block;
+  background-color: #0bb39f;
+  border-radius: 100%;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 0;
+  font-size: 12px;
+  color: black;
 }
 
-.fa.fa{
-    font-size: 15px;
-    margin-left: 4px;
-    color: rgb(182, 174, 174);
+.unread-num-msg {
+  display: inline-block;
+  background-color: #0bb39f;
+  border-radius: 55%;
+  height: 19px;
+  margin-top: -5px;
+  float: right;
+  margin-right: 12px;
+  padding-top: 3px;
+  padding-left: 7px;
+  padding-right: 5px;
+  color: black;
 }
 
-.the-icons{
-    float: right;
-    padding-right: 9px;
-    padding-top: 5px;
+.fa.fa {
+  font-size: 15px;
+  margin-left: 4px;
+  color: rgb(182, 174, 174);
 }
 
-#search{
-    padding-right: 12px;
+.the-icons {
+  float: right;
+  padding-right: 9px;
+  padding-top: 5px;
 }
 
-.fa.fa-check{
-    font-size: 10px;
-    font-weight: 0;
+#search {
+  padding-right: 12px;
 }
 
-span#msg-sent.material-icons{
-    font-size: 10px !important;
-    padding-right: 5px;
+.fa.fa-check {
+  font-size: 10px;
+  font-weight: 0;
 }
 
-span#msg-delivered.material-icons{
-    font-size: 10px !important;
-    padding-right: 5px;
+span#msg-sent.material-icons {
+  font-size: 10px !important;
+  padding-right: 5px;
 }
 
-span#msg-seen.material-icons{
-    font-size: 10px !important;
-    padding-right: 5px;
-    color: #00a5f4;
+span#msg-delivered.material-icons {
+  font-size: 10px !important;
+  padding-right: 5px;
 }
 
-span#msg-seen.material-icons{
-    font-size: 10px !important;
-    padding-right: 5px;
-    color: #00a5f4;
+span#msg-seen.material-icons {
+  font-size: 10px !important;
+  padding-right: 5px;
+  color: #00a5f4;
 }
 
-span#video.material-icons{
-    font-size: 9px !important;
-    padding-right: 40px;
-
+span#msg-seen.material-icons {
+  font-size: 10px !important;
+  padding-right: 5px;
+  color: #00a5f4;
 }
 
-span#phone-battery.material-icons{
-    font-size: 15px !important;
-    float: right;
-    padding-right: 20px;
-    padding-top: 4px;
-    color: white;
+span#video.material-icons {
+  font-size: 9px !important;
+  padding-right: 40px;
 }
 
-.battery-percentage{
-    font-size: 11px !important;
-    float: right;
-    padding-right: 1px;
-    padding-top: 7px;
-    color: white; 
+span#phone-battery.material-icons {
+  font-size: 15px !important;
+  float: right;
+  padding-right: 20px;
+  padding-top: 4px;
+  color: white;
 }
 
-span#mobile-network.material-icons{
-    font-size: 15px !important;
-    float: right;
-    padding-right: 3px;
-    padding-top: 4px;
-    color: white;
+.battery-percentage {
+  font-size: 11px !important;
+  float: right;
+  padding-right: 1px;
+  padding-top: 7px;
+  color: white;
 }
 
-span#mute.material-icons{
-    font-size: 15px !important;
-    float: right;
-    padding-right: 30px;
+span#mobile-network.material-icons {
+  font-size: 15px !important;
+  float: right;
+  padding-right: 3px;
+  padding-top: 4px;
+  color: white;
 }
 
-span#missed-call.material-icons{
-    font-size: 15px !important;
-    padding-right: 5px;
-    float: left;
-    color: rgb(233, 67, 67);
+span#mute.material-icons {
+  font-size: 15px !important;
+  float: right;
+  padding-right: 30px;
 }
 
-span#file.material-icons{
-    font-size: 15px !important;
-    padding-right: 5px;
-    float: left;
+span#missed-call.material-icons {
+  font-size: 15px !important;
+  padding-right: 5px;
+  float: left;
+  color: rgb(233, 67, 67);
 }
 
+span#file.material-icons {
+  font-size: 15px !important;
+  padding-right: 5px;
+  float: left;
+}
 
-@media screen and (max-width: 320px){
-    .mobile-wrapper{
-        width: 200;
-    }
+.dev {
+  text-align: center;
+  font-size: 18px;
+}
+
+.dev > a {
+  color: #58a6ff;
+}
+
+@media screen and (max-width: 320px) {
+  .mobile-wrapper {
+    width: 200;
+  }
 }
