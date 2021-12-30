@@ -6,7 +6,11 @@
 }
 
 body {
-  margin-top: 25px;
+  margin-top: 30px;
+}
+
+body > a {
+  text-decoration: none;
 }
 
 .top-bar {
@@ -243,6 +247,15 @@ span#file.material-icons {
 
 .dev > a {
   color: #58a6ff;
+}
+
+#github {
+  font-size: 40px;
+  color: #3d3f46;
+  display: block;
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
 }
 
 @media screen and (max-width: 320px) {
