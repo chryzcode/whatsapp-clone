@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    cursor:pointer;
+}
+
+body{
+    margin-top: 25px;
+}
+
+.top-bar{
+    height: 20px;
+}
+
+.mobile-time{
+    font-size: 11px;
+    padding-left: 18px;
+    color: white;
+}
+.mobile-wrapper{
+    height: 600px;
+    width: 300px;
+    background-color: #292C35;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 44px;
+    border: 15px solid black;
+}
+
+.navigation{
+    width: 70px;
+    height: 2px;
+    background-color: rgb(104, 94, 94);
+    margin-top: -5x;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item{
+    padding-right: 12px;
+    padding-left: 10px;
+    color: rgb(182, 174, 174);
+    font-size: 14px;
+}
+
+img{
+    width: 39px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.main{
+    height: 540px;
+    border-radius: 7px;
+}
+
+.whatsapp-top-view{
+    background-color: #3d3f46;
+    height: 60px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.company-name{
+    margin-top: 4px;
+    padding-left: 6px;
+    display: inline-block;
+    color: rgb(182, 174, 174);
+}
+
+.nav-bar{
+    margin-top: 14px;
+}
+
+.a-person{
+    margin-top: 5px;
+    border-bottom: 1px solid grey;
+    list-style: none;
+}
+
+.name{
+    color: white;
+    padding-left: 10px;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.msg-time{
+    color: white;
+    font-size: 10px;
+    float: right;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.read-msg{
+    color: grey;
+
+    margin-bottom: 5px;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.unread-msg{
+    border-bottom: 1px solid grey;
+    margin-top: 5px;
+    list-style: none;
+}
+
+.msg{
+    color: grey;
+    margin-bottom: 5px;
+    padding-left: 55px;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.nav-unread-num-msg{
+    display: inline-block;
+    background-color: #0bb39f;
+    border-radius: 100%;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0;
+    font-size: 12px;
+    color: black;
+}
+
+.unread-num-msg{
+    display: inline-block;
+    background-color: #0bb39f;
+    border-radius: 55%;
+    height: 19px;    
+    margin-top: -5px;
+    float: right;
+    margin-right: 12px;
+    padding-top: 3px;
+    padding-left: 7px;
+    padding-right: 5px;
+    color: black;
+}
+
+.fa.fa{
+    font-size: 15px;
+    margin-left: 4px;
+    color: rgb(182, 174, 174);
+}
+
+.the-icons{
+    float: right;
+    padding-right: 9px;
+    padding-top: 5px;
+}
+
+#search{
+    padding-right: 12px;
+}
+
+.fa.fa-check{
+    font-size: 10px;
+    font-weight: 0;
+}
+
+span#msg-sent.material-icons{
+    font-size: 10px !important;
+    padding-right: 5px;
+}
+
+span#msg-delivered.material-icons{
+    font-size: 10px !important;
+    padding-right: 5px;
+}
+
+span#msg-seen.material-icons{
+    font-size: 10px !important;
+    padding-right: 5px;
+    color: #00a5f4;
+}
+
+span#msg-seen.material-icons{
+    font-size: 10px !important;
+    padding-right: 5px;
+    color: #00a5f4;
+}
+
+span#video.material-icons{
+    font-size: 9px !important;
+    padding-right: 40px;
+
+}
+
+span#phone-battery.material-icons{
+    font-size: 15px !important;
+    float: right;
+    padding-right: 20px;
+    padding-top: 4px;
+    color: white;
+}
+
+.battery-percentage{
+    font-size: 11px !important;
+    float: right;
+    padding-right: 1px;
+    padding-top: 7px;
+    color: white; 
+}
+
+span#mobile-network.material-icons{
+    font-size: 15px !important;
+    float: right;
+    padding-right: 3px;
+    padding-top: 4px;
+    color: white;
+}
+
+span#mute.material-icons{
+    font-size: 15px !important;
+    float: right;
+    padding-right: 30px;
+}
+
+span#missed-call.material-icons{
+    font-size: 15px !important;
+    padding-right: 5px;
+    float: left;
+    color: rgb(233, 67, 67);
+}
+
+span#file.material-icons{
+    font-size: 15px !important;
+    padding-right: 5px;
+    float: left;
+}
+
+
+@media screen and (max-width: 320px){
+    .mobile-wrapper{
+        width: 200;
+    }
+}
