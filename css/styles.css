@@ -161,10 +161,21 @@ img {
   color: rgb(182, 174, 174);
 }
 
+.top-view-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .the-icons {
-  float: right;
+  /* float: right;
   padding-right: 9px;
-  padding-top: 5px;
+  padding-top: 5px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 7px;
+  margin-top: 5px;
 }
 
 #search {
