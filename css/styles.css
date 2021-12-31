@@ -274,7 +274,7 @@ span#file.material-icons {
 }
 
 @media screen and (max-width: 320px) {
-  .mobile-wrapper {
+  /* .mobile-wrapper {
     width: 200;
-  }
+  } */
 }
