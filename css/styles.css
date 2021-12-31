@@ -15,6 +15,9 @@ body > a {
 
 .top-bar {
   height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .mobile-time {
@@ -174,11 +177,10 @@ div.nav-bar > i {
 }
 
 .the-icons {
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5px; */
-  float: right;
+  margin-top: 5px;
 }
 /* 
 #search {
@@ -219,25 +221,25 @@ span#video.material-icons {
 
 span#phone-battery.material-icons {
   font-size: 15px !important;
-  float: right;
+  /* float: right;
   padding-right: 20px;
-  padding-top: 4px;
+  padding-top: 4px; */
   color: white;
 }
 
 .battery-percentage {
   font-size: 11px !important;
-  float: right;
+  /* float: right;
   padding-right: 1px;
-  padding-top: 7px;
+  padding-top: 7px; */
   color: white;
 }
 
 span#mobile-network.material-icons {
   font-size: 15px !important;
-  float: right;
+  /* float: right;
   padding-right: 3px;
-  padding-top: 4px;
+  padding-top: 4px; */
   color: white;
 }
 
