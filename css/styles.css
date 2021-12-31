@@ -48,6 +48,8 @@ body > a {
   color: rgb(182, 174, 174);
   font-size: 14px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -69,11 +71,11 @@ img {
   height: 60px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  padding: 0 10px;
 }
 
 .company-name {
   margin-top: 4px;
-  padding-left: 6px;
   display: inline-block;
   color: rgb(182, 174, 174);
 }
@@ -83,9 +85,10 @@ img {
   display: flex;
 }
 
-.all-nav-bar-item {
-  display: flex;
-  align-items: center;
+.all-nav-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
 }
 
 .a-person {
@@ -159,7 +162,6 @@ img {
 
 .fa.fa {
   font-size: 15px;
-  margin-left: 4px;
   color: rgb(182, 174, 174);
 }
 
