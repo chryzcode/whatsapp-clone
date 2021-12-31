@@ -79,11 +79,13 @@ img {
 }
 
 .nav-bar {
-  margin-top: 14px;
+  margin-top: 14px;;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
 
+.all-nav-bar-item {
+  display: flex;
+  align-items: center;
 }
 
 .a-person {
@@ -168,19 +170,15 @@ img {
 }
 
 .the-icons {
-  /* float: right;
-  padding-right: 9px;
-  padding-top: 5px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 7px;
   margin-top: 5px;
 }
-
+/* 
 #search {
   padding-right: 12px;
-}
+} */
 
 .fa.fa-check {
   font-size: 10px;
