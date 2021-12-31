@@ -47,7 +47,9 @@ body > a {
   padding-left: 10px;
   color: rgb(182, 174, 174);
   font-size: 14px;
+  text-align: center;
 }
+
 
 img {
   width: 39px;
@@ -78,6 +80,10 @@ img {
 
 .nav-bar {
   margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .a-person {
